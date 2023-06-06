@@ -107,7 +107,7 @@ const getWebViewContent = (
 	}
 	const blankCount = blocks.length - 1;
 	const stylesheets = [
-		path.join(context.extensionPath, 'resource', 'libs', 'highlight', 'styles', 'dark.min.css'),
+		path.join(context.extensionPath, 'resource', 'libs', 'highlight', 'styles', 'vs2015.min.css'),
 		path.join(context.extensionPath, 'resource', 'style', 'style.css')
 	];
 	const scripts = [

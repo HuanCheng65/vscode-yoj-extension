@@ -39,7 +39,7 @@
         }
     });
     require.config({ baseUrl: document.getElementById('requirePath').getAttribute('data-value') });
-    require(['vs/editor/editor.main'], () => {
+    require(['vs/editor/editor.main', 'vs/editor/editor.main.nls.zh-cn'], () => {
         monaco.editor.defineTheme('yoj', {
             base: baseEditorTheme,
             inherit: true,
@@ -55,6 +55,7 @@
                 minimap: { enabled: false },
                 fontWeight: 'var(--vscode-editor-font-weight)',
                 fontFamily: 'var(--vscode-editor-font-family)',
+                nlsBundle: 'vs/editor/editor.main.nls.zh-cn',
             });
 
             monacoEditor[i].onDidFocusEditorWidget(() => {
