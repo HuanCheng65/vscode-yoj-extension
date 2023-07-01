@@ -2,7 +2,7 @@
   "name": "vscode-yoj",
   "displayName": "YOJ",
   "description": "快捷地在 YOJ 上提交代码",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.78.0"
   },
