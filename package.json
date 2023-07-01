@@ -10,6 +10,7 @@
   "categories": [
     "Other"
   ],
+  "icon": "resource/img/ic_yoj.png",
   "publisher": "HuanCheng65",
   "repository": {
     "type": "git",
